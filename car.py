@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+'''from abc import ABC, abstractmethod
 
 
 class Car(ABC):
@@ -8,3 +8,19 @@ class Car(ABC):
     @abstractmethod
     def needs_service(self):
         pass
+'''
+from serviceable import Serviceable
+from engine.engine import Engine
+from battery.battery import Battery
+
+class Car(Serviceable):
+
+    def __init__(self, engine, battery):
+        self.engine = Engine()
+        self.battery = Battery()
+
+    def needs_service(self):
+        engine_needs_service = self.engine.needs_service()
+        battery_needs_service = self.battery.needs_service()
+        return engine_needs_service or battery_needs_service
+
