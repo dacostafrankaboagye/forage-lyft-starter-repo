@@ -13,12 +13,14 @@ from serviceable import Serviceable
 
 class Car(Serviceable):
 
-    def __init__(self, engine, battery):
+    def __init__(self, engine, battery, tire):
         self.engine = engine
         self.battery = battery
+        self.tire = tire
 
     def needs_service(self):
         engine_needs_service = self.engine.needs_service()
         battery_needs_service = self.battery.needs_service()
-        return engine_needs_service or battery_needs_service
+        tire_needs_service = self.tire.needs_service()
+        return engine_needs_service or battery_needs_service or tire_needs_service
 
