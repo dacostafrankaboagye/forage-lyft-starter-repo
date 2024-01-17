@@ -22,7 +22,6 @@ class TestCalliope(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_calliope(
-            self,
             current_mileage=current_mileage,
             last_service_date=last_service_date,
             last_service_mileage=last_service_mileage,
@@ -41,7 +40,6 @@ class TestCalliope(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_calliope(
-            self,
             current_mileage=current_mileage,
             last_service_date=last_service_date,
             last_service_mileage=last_service_mileage,
@@ -60,7 +58,6 @@ class TestCalliope(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_calliope(
-            self,
             current_mileage=current_mileage,
             last_service_date=last_service_date,
             last_service_mileage=last_service_mileage,
@@ -79,7 +76,6 @@ class TestCalliope(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_calliope(
-            self,
             current_mileage=current_mileage,
             last_service_date=last_service_date,
             last_service_mileage=last_service_mileage,
@@ -111,7 +107,6 @@ class TestGlissade(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_glissade(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -130,7 +125,6 @@ class TestGlissade(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_glissade(
-            self,
             current_mileage=current_mileage,
             last_service_date=last_service_date,
             last_service_mileage=last_service_mileage,
@@ -149,7 +143,6 @@ class TestGlissade(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_glissade(
-            self,
             current_mileage=current_mileage,
             last_service_date=last_service_date,
             last_service_mileage=last_service_mileage,
@@ -168,7 +161,6 @@ class TestGlissade(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_glissade(
-            self,
             current_mileage=current_mileage,
             last_service_date=last_service_date,
             last_service_mileage=last_service_mileage,
@@ -200,7 +192,6 @@ class TestPalindrome(unittest.TestCase):
         warning_light_on = False
 
         car = CarFactory.create_palindrome(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             warning_light_on=warning_light_on
@@ -217,7 +208,6 @@ class TestPalindrome(unittest.TestCase):
         warning_light_on = True
 
         car = CarFactory.create_palindrome(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             warning_light_on=warning_light_on
@@ -233,7 +223,6 @@ class TestPalindrome(unittest.TestCase):
         warning_light_on = False
 
         car = CarFactory.create_palindrome(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             warning_light_on=warning_light_on
@@ -250,7 +239,6 @@ class TestPalindrome(unittest.TestCase):
         warning_light_on = False
 
         car = CarFactory.create_palindrome(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             warning_light_on=warning_light_on
@@ -282,7 +270,6 @@ class TestRorschach(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_rorschach(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -301,7 +288,6 @@ class TestRorschach(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_rorschach(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -320,7 +306,6 @@ class TestRorschach(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_rorschach(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -340,7 +325,6 @@ class TestRorschach(unittest.TestCase):
 
 
         car = CarFactory.create_rorschach(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -373,7 +357,6 @@ class TestThovex(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_thovex(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -392,7 +375,6 @@ class TestThovex(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_thovex(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -411,7 +393,6 @@ class TestThovex(unittest.TestCase):
         last_service_mileage = 0
 
         car = CarFactory.create_thovex(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
@@ -431,7 +412,6 @@ class TestThovex(unittest.TestCase):
 
 
         car = CarFactory.create_thovex(
-            self,
             current_date=current_date,
             last_service_date=last_service_date,
             current_mileage=current_mileage,
